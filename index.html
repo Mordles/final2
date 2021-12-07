@@ -1,0 +1,66 @@
+
+<html>
+  
+  <style>
+  body {
+  background-image: url('https://www.kinsa.com/wp-content/uploads/2013/10/In-the-Driver-Seat.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  }
+
+  
+  table, th, td {
+  border:1px solid black;
+  }
+  table.center {
+  margin-left: auto; 
+  margin-right: auto;
+  } 
+  
+  input {
+   text-align:center;
+   border-radius:10px;
+   margin-left:40px;
+  }
+  </style>
+
+  <body>
+    <h1 style="text-align:center;">Remote Control Car Webpage</h1><br><br>
+
+    
+    <h2 style="margin-left:30px;"> <b>Direction</b></h2>
+    
+    <form action="/cgi-bin/index.py" method="POST">
+    <input type="radio" name="option" value="F"> Forward<br>
+    <input type="radio" name="option" value="B"> Backward<br>
+    <input type="radio" name="option" value="L"> Left<br>
+    <input type="radio" name="option" value="R"> Right<br><br>
+    <input type="submit" value="Submit"> <br><br>
+    </form>
+    
+   <!-- <h2 style="margin-left:30px;"><b>Time</b></h2>
+
+    <input type="number" id="quantity" name="quantity" min="3" max="7">
+    <label for="quantity">Between 3 and 7 seconds</label><br><br>
+    <input type="submit" value="Submit">
+
+    <br><br><br>
+
+   
+   <table class="center", style="width:25%">
+    <tr>
+     <th>Direction</th>
+     <th>Time [s]</th>
+    </tr>
+    <tr>
+     <td>Left</td>
+     <td>5</td>
+    </tr>
+   </table>
+   -->
+    
+
+    
+  </body>
+</html>
